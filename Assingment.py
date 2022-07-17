@@ -1,21 +1,8 @@
-# a=input("attendance")
-# b=imput("hommework")
-# c=input("exams")
+stu1=int(input("attandance:"))
+stu2=int(input("homework:"))
+stu3=int(input("exam:"))
 
-# Answer=int((attandance+homework+Exam)/3)
-
-# Textbox4.Tex ="The Answer=" & Answer & "The grade ia A "
-
-# Textbox4.Text ="The Answer=" & Answer & "The grade ia B "
-
-# Textbox4.Text="The Answer=" & Answer & "The grade ia c "
-
-
-sub1=int(input("get here sub1 marks:"))
-sub2=int(input("get here sub2 marks:"))
-sub3=int(input("get here sub3 marks:"))
-
-sum=sub1+sub2+sub3
+sum=stu1+stu2+stu3
 totalMarks=300
 percentage=(sum/totalMarks) * 100
 Avg=(sum/3)
